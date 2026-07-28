@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/blog-idea-matcher-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Classifies an attached resource as a short Blog Post Idea / outline. Extracted from @cinatra-ai/blog-idea-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Blog Idea Matcher Skill",
+    "skillRole": "matcher",
+    "dependencies": []
+  }
+}
